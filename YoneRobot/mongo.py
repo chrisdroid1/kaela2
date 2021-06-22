@@ -3,6 +3,7 @@ import asyncio
 import sys
 
 from motor import motor_asyncio
+from YoneRobot.utils import logger
 from YoneRobot import MONGO_DB_URI 
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
