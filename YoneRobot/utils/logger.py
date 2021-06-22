@@ -25,7 +25,7 @@ class InterceptHandler(logging.Handler):
 logging.basicConfig(handlers=[InterceptHandler()], level=logging.INFO)
 log = logging.getLogger(__name__)
 logger.add(
-    "logs/DaisyX.log",
+    "logs/YoneRobot.log",
     rotation="1 d",
     compression="tar.xz",
     backtrace=True,
